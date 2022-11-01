@@ -8,12 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		23295D952910C0F500CBA02A /* SwiftUIFoundationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23295D942910C0F500CBA02A /* SwiftUIFoundationApp.swift */; };
-		23295D972910C0F500CBA02A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23295D962910C0F500CBA02A /* ContentView.swift */; };
+		23295D972910C0F500CBA02A /* VStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23295D962910C0F500CBA02A /* VStackView.swift */; };
 		23295D992910C0F500CBA02A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23295D982910C0F500CBA02A /* Assets.xcassets */; };
 		23295D9C2910C0F500CBA02A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23295D9B2910C0F500CBA02A /* Preview Assets.xcassets */; };
 		23295DA62910C0F600CBA02A /* SwiftUIFoundationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23295DA52910C0F600CBA02A /* SwiftUIFoundationTests.swift */; };
 		23295DB02910C0F600CBA02A /* SwiftUIFoundationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23295DAF2910C0F600CBA02A /* SwiftUIFoundationUITests.swift */; };
 		23295DB22910C0F600CBA02A /* SwiftUIFoundationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23295DB12910C0F600CBA02A /* SwiftUIFoundationUITestsLaunchTests.swift */; };
+		23295DC02910C16900CBA02A /* Charts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23295DBF2910C16900CBA02A /* Charts.swift */; };
+		23295DC22910C1E400CBA02A /* HStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23295DC12910C1E400CBA02A /* HStackView.swift */; };
+		23295DC42910C37D00CBA02A /* HStackWithVStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23295DC32910C37D00CBA02A /* HStackWithVStackView.swift */; };
+		23295DC62910C3BD00CBA02A /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23295DC52910C3BD00CBA02A /* AsyncImageView.swift */; };
+		23295DC82910C41800CBA02A /* ZStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23295DC72910C41800CBA02A /* ZStackView.swift */; };
+		23295DCA2910C6FC00CBA02A /* ButtonChangeStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23295DC92910C6FC00CBA02A /* ButtonChangeStateView.swift */; };
+		23295DCC2910C7B300CBA02A /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23295DCB2910C7B300CBA02A /* ListView.swift */; };
+		23295DCE2910C85C00CBA02A /* ListWithModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23295DCD2910C85C00CBA02A /* ListWithModelView.swift */; };
+		23295DD02910C96B00CBA02A /* SwipeActionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23295DCF2910C96B00CBA02A /* SwipeActionsView.swift */; };
+		23295DD22910C9EE00CBA02A /* ViewsInsideTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23295DD12910C9EE00CBA02A /* ViewsInsideTabView.swift */; };
+		23295DD42910CABE00CBA02A /* NavigationLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23295DD32910CABE00CBA02A /* NavigationLinkView.swift */; };
+		23295DD62910CB5500CBA02A /* PushControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23295DD52910CB5500CBA02A /* PushControllerView.swift */; };
+		23295DD82910CC7C00CBA02A /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23295DD72910CC7C00CBA02A /* FormView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +49,7 @@
 /* Begin PBXFileReference section */
 		23295D912910C0F500CBA02A /* SwiftUIFoundation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIFoundation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23295D942910C0F500CBA02A /* SwiftUIFoundationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIFoundationApp.swift; sourceTree = "<group>"; };
-		23295D962910C0F500CBA02A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		23295D962910C0F500CBA02A /* VStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStackView.swift; sourceTree = "<group>"; };
 		23295D982910C0F500CBA02A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23295D9B2910C0F500CBA02A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		23295DA12910C0F600CBA02A /* SwiftUIFoundationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIFoundationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +57,19 @@
 		23295DAB2910C0F600CBA02A /* SwiftUIFoundationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIFoundationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		23295DAF2910C0F600CBA02A /* SwiftUIFoundationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIFoundationUITests.swift; sourceTree = "<group>"; };
 		23295DB12910C0F600CBA02A /* SwiftUIFoundationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIFoundationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		23295DBF2910C16900CBA02A /* Charts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Charts.swift; sourceTree = "<group>"; };
+		23295DC12910C1E400CBA02A /* HStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStackView.swift; sourceTree = "<group>"; };
+		23295DC32910C37D00CBA02A /* HStackWithVStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStackWithVStackView.swift; sourceTree = "<group>"; };
+		23295DC52910C3BD00CBA02A /* AsyncImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
+		23295DC72910C41800CBA02A /* ZStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStackView.swift; sourceTree = "<group>"; };
+		23295DC92910C6FC00CBA02A /* ButtonChangeStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonChangeStateView.swift; sourceTree = "<group>"; };
+		23295DCB2910C7B300CBA02A /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		23295DCD2910C85C00CBA02A /* ListWithModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListWithModelView.swift; sourceTree = "<group>"; };
+		23295DCF2910C96B00CBA02A /* SwipeActionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeActionsView.swift; sourceTree = "<group>"; };
+		23295DD12910C9EE00CBA02A /* ViewsInsideTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewsInsideTabView.swift; sourceTree = "<group>"; };
+		23295DD32910CABE00CBA02A /* NavigationLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLinkView.swift; sourceTree = "<group>"; };
+		23295DD52910CB5500CBA02A /* PushControllerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushControllerView.swift; sourceTree = "<group>"; };
+		23295DD72910CC7C00CBA02A /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +120,23 @@
 		23295D932910C0F500CBA02A /* SwiftUIFoundation */ = {
 			isa = PBXGroup;
 			children = (
-				23295D942910C0F500CBA02A /* SwiftUIFoundationApp.swift */,
-				23295D962910C0F500CBA02A /* ContentView.swift */,
 				23295D982910C0F500CBA02A /* Assets.xcassets */,
+				23295DBE2910C14E00CBA02A /* iOS16 */,
 				23295D9A2910C0F500CBA02A /* Preview Content */,
+				23295D942910C0F500CBA02A /* SwiftUIFoundationApp.swift */,
+				23295D962910C0F500CBA02A /* VStackView.swift */,
+				23295DC12910C1E400CBA02A /* HStackView.swift */,
+				23295DC32910C37D00CBA02A /* HStackWithVStackView.swift */,
+				23295DC52910C3BD00CBA02A /* AsyncImageView.swift */,
+				23295DC72910C41800CBA02A /* ZStackView.swift */,
+				23295DC92910C6FC00CBA02A /* ButtonChangeStateView.swift */,
+				23295DCB2910C7B300CBA02A /* ListView.swift */,
+				23295DCD2910C85C00CBA02A /* ListWithModelView.swift */,
+				23295DCF2910C96B00CBA02A /* SwipeActionsView.swift */,
+				23295DD12910C9EE00CBA02A /* ViewsInsideTabView.swift */,
+				23295DD32910CABE00CBA02A /* NavigationLinkView.swift */,
+				23295DD52910CB5500CBA02A /* PushControllerView.swift */,
+				23295DD72910CC7C00CBA02A /* FormView.swift */,
 			);
 			path = SwiftUIFoundation;
 			sourceTree = "<group>";
@@ -125,6 +164,14 @@
 				23295DB12910C0F600CBA02A /* SwiftUIFoundationUITestsLaunchTests.swift */,
 			);
 			path = SwiftUIFoundationUITests;
+			sourceTree = "<group>";
+		};
+		23295DBE2910C14E00CBA02A /* iOS16 */ = {
+			isa = PBXGroup;
+			children = (
+				23295DBF2910C16900CBA02A /* Charts.swift */,
+			);
+			path = iOS16;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +304,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23295D972910C0F500CBA02A /* ContentView.swift in Sources */,
+				23295DCE2910C85C00CBA02A /* ListWithModelView.swift in Sources */,
+				23295DC42910C37D00CBA02A /* HStackWithVStackView.swift in Sources */,
+				23295DC82910C41800CBA02A /* ZStackView.swift in Sources */,
+				23295DC02910C16900CBA02A /* Charts.swift in Sources */,
+				23295D972910C0F500CBA02A /* VStackView.swift in Sources */,
+				23295DCA2910C6FC00CBA02A /* ButtonChangeStateView.swift in Sources */,
+				23295DD62910CB5500CBA02A /* PushControllerView.swift in Sources */,
+				23295DD02910C96B00CBA02A /* SwipeActionsView.swift in Sources */,
 				23295D952910C0F500CBA02A /* SwiftUIFoundationApp.swift in Sources */,
+				23295DC22910C1E400CBA02A /* HStackView.swift in Sources */,
+				23295DD42910CABE00CBA02A /* NavigationLinkView.swift in Sources */,
+				23295DC62910C3BD00CBA02A /* AsyncImageView.swift in Sources */,
+				23295DD82910CC7C00CBA02A /* FormView.swift in Sources */,
+				23295DD22910C9EE00CBA02A /* ViewsInsideTabView.swift in Sources */,
+				23295DCC2910C7B300CBA02A /* ListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
